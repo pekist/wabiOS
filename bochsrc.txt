@@ -1,0 +1,7 @@
+display_library: x, options="gui_debug"
+memory: guest=512, host=512
+romimage: file=$BXSHARE/BIOS-bochs-latest 
+vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
+ata0-master: type=disk, path=disk.img
+boot: disk
+magic_break: enabled=1
